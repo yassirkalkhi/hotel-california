@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'StyleScript': ['Style Script', 'sans-serif']
+        'StyleScript': ["Kaushan Script", 'sans-serif']
       }
     }
   },

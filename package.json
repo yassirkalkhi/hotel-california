@@ -7,14 +7,24 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "california-payment"  : "node server/index.js"
   },
   "dependencies": {
+    "@stripe/react-stripe-js": "^3.1.1",
+    "@stripe/stripe-js": "^5.6.0",
+    "axios": "^1.7.9",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
     "gsap": "^3.12.5",
+    "lucide-react": "^0.474.0",
     "react": "^18.3.1",
     "react-datepicker": "^7.5.0",
     "react-dom": "^18.3.1",
-    "react-router-dom": "^7.1.1"
+    "react-router-dom": "^7.1.1",
+    "stripe": "^17.6.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
